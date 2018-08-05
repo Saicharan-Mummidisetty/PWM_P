@@ -1,5 +1,7 @@
 package generic;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -18,7 +20,8 @@ public class Base_Test implements Auto_const{
 	{
 		
 		driver=new FirefoxDriver();
-		driver.get("http://localhost/login.do;jsessionid=r9fv90qlt7uy");
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.get("https://www.flipkart.com/");
 	}
 	
 	@AfterMethod
