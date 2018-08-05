@@ -34,7 +34,7 @@ public class Flipkartsc1 extends Base_Test
 		fp2.addProduct();
 		Flipkart_cart4 fc=new Flipkart_cart4(driver);
 		fc.remove();
-		String name=Excel.getCellvalue(PATH, "Sc1", 1, 4);
+		String name=Excel.getCellvalue(PATH, "Sc1", 0, 4);
 		fc.verifymsg(name);
 		
 	}

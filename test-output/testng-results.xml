@@ -4,30 +4,24 @@
     <line>
       <![CDATA[title is matching]]>
     </line>
-    <line>
-      <![CDATA[path is invalid]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26979" started-at="2018-08-05T06:35:14Z" finished-at="2018-08-05T06:35:41Z">
+  <suite name="Default suite" duration-ms="31983" started-at="2018-08-05T07:12:07Z" finished-at="2018-08-05T07:12:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26979" started-at="2018-08-05T06:35:14Z" finished-at="2018-08-05T06:35:41Z">
+    <test name="Default test" duration-ms="31983" started-at="2018-08-05T07:12:07Z" finished-at="2018-08-05T07:12:39Z">
       <class name="scripts.Flipkartsc1">
-        <test-method status="PASS" signature="openAppln()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="openAppln" is-config="true" duration-ms="11910" started-at="2018-08-05T12:05:14Z" finished-at="2018-08-05T12:05:26Z">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="openAppln" is-config="true" duration-ms="16792" started-at="2018-08-05T12:42:07Z" finished-at="2018-08-05T12:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppln -->
-        <test-method status="PASS" signature="testsc1()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="testsc1" duration-ms="14278" started-at="2018-08-05T12:05:26Z" finished-at="2018-08-05T12:05:41Z">
+        <test-method status="PASS" signature="testsc1()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="testsc1" duration-ms="14129" started-at="2018-08-05T12:42:23Z" finished-at="2018-08-05T12:42:37Z">
           <reporter-output>
             <line>
               <![CDATA[title is matching]]>
             </line>
-            <line>
-              <![CDATA[path is invalid]]>
-            </line>
           </reporter-output>
         </test-method> <!-- testsc1 -->
-        <test-method status="PASS" signature="closeAppln()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="closeAppln" is-config="true" duration-ms="773" started-at="2018-08-05T12:05:41Z" finished-at="2018-08-05T12:05:41Z">
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:scripts.Flipkartsc1@42e26948]" name="closeAppln" is-config="true" duration-ms="1041" started-at="2018-08-05T12:42:37Z" finished-at="2018-08-05T12:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppln -->
